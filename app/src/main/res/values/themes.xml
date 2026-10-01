@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.OBDLight"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Cor principal da aplicação -->
+        <item name="colorPrimary">@color/obd_blue</item>
+
+        <!-- Cor apresentada sobre elementos primários -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Cor secundária -->
+        <item name="colorSecondary">@color/obd_cyan</item>
+
+        <!-- Cor apresentada sobre elementos secundários -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Fundo geral -->
+        <item name="android:colorBackground">@color/obd_background</item>
+
+        <!-- Barra de status -->
+        <item name="android:statusBarColor">@color/obd_blue_dark</item>
+
+        <!-- Ícones claros na barra de status -->
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="Theme.OBDLight"
+        parent="Base.Theme.OBDLight" />
+
+</resources>

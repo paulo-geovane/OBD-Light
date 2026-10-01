@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Paleta principal do aplicativo OBD Light.
+
+        As cores foram definidas de forma a manter
+        identidade visual compatível com o logotipo.
+    -->
+
+    <!-- Cor institucional principal -->
+    <color name="obd_blue">#0067C5</color>
+
+    <!-- Variante escura utilizada em elementos de contraste -->
+    <color name="obd_blue_dark">#003B73</color>
+
+    <!-- Cor de destaque inspirada no efeito luminoso do logotipo -->
+    <color name="obd_cyan">#00B8E6</color>
+
+    <!-- Cor destinada a alertas e elementos relacionados ao diagnóstico -->
+    <color name="obd_orange">#FF9800</color>
+
+    <!-- Fundo principal da aplicação -->
+    <color name="obd_background">#F5F7FA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
