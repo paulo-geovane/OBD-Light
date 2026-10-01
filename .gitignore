@@ -1,17 +1,49 @@
+# ============================================================
+# OBD Light - Git Ignore
+# Projeto Android / Java
+# ============================================================
+
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Configuração local do Android SDK
+# Este arquivo contém caminhos específicos do computador
+# do desenvolvedor e não deve ser versionado.
 local.properties
 
-/.idea/
+# Arquivos de log
+*.log
+
+# Arquivos gerados pelo Android
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+# Aplicativos compilados
+*.apk
+*.aab
+
+# Arquivos de assinatura
+# Keystores não devem ser publicados no repositório.
+*.jks
+*.keystore
+
+# Configurações de serviços externos
+google-services.json
+
+# Android Profiler
+*.hprof
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
